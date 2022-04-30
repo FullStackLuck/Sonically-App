@@ -12,7 +12,7 @@ const song = require("./models/songs")
 /////////////////////////////////////////////////////////////////////////////
 const app = express();
 app.set('view engine', 'ejs')
-/////Middleware////////////////////////////////
+/////Middleware/////////////////////////////////
 // app.use(morgan("tiny"));
 app.use(express.urlencoded({extended:true}))
 app.use(methodOverride("_method"))
