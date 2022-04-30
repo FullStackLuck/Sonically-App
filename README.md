@@ -34,6 +34,6 @@ This app has the potential to be a a full music information and playlist app ret
 ![Screen Shot 2022-04-28 at 12 31 32 AM](https://user-images.githubusercontent.com/91327618/165677032-a6a3a50a-8a22-412d-b9ae-27bf91f40c0c.png)
 
 
+The app
 
-
-https://github.com/FullStackLuck/Sonically-App
+https://sonically-app.herokuapp.com/
