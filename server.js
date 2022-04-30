@@ -7,7 +7,7 @@ const express = require ("express"); // Web Framework
 // const morgan = require("morgan");//Logging
 const mongoose = require('mongoose')
 const methodOverride = require("method-override");// Overide the request method
-const song = require("./Models/songs")
+const song = require("./models/songs")
 //const songsSeedData = require("./Models/songsSeed");
 /////////////////////////////////////////////////////////////////////////////
 const app = express();
