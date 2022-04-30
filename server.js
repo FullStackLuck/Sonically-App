@@ -12,7 +12,6 @@ const song = require("./models/songs")
 /////////////////////////////////////////////////////////////////////////////
 const app = express();
 app.set('view engine', 'ejs')
-app.set('views', path.join(__dirname, 'app/views'))
 /////Middleware////////////////////////////////
 // app.use(morgan("tiny"));
 app.use(express.urlencoded({extended:true}))
