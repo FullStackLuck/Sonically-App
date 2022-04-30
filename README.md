@@ -36,3 +36,4 @@ This app has the potential to be a a full music information and playlist app ret
 
 
 
+https://github.com/FullStackLuck/Sonically-App
