@@ -95,7 +95,7 @@ app.post("/songs", (req,res)=>{
 });
 });
 
-///////Edit Route
+///////Edit Route///
 app.get("/songs/:id/edit", (req,res) =>{
     song.findById(req.params.id, (err, song) =>{
         res.render("edit.ejs",{song})
