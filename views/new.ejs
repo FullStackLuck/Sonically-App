@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include('partials/head.ejs')%> 
+<body>
+    <h2>Add a song to your playlist</h2>
+    <!-- <div class="container" -->
+    <form action="/songs" method="POST">
+        <input type="text" name="artist"placeholder="Artist"></br>
+        <input type="text" name="title" placeholder="Song Title"></br>
+        <select type="genre" placeholder="Genre">
+            <option value="Pop">Pop</option>
+            <option value="Hip Hop">Hip Hop</option>
+            <option value="Rap">Rap</option>
+            <option value="Jazz">Jazz</option>
+            <option value="R&B">R&B</option>
+            <option value="Country">Country</option>
+            <option value="Alternative">Alternative</option>
+            <option value="Gospel">Gospel</option>
+            <option value="Blue">Blue</option>
+            <option value="Soul">Soul</option>
+            <option value="Reggae">Reggae</option>
+            <option value="World">World</option>
+        </select></br>
+        <input type="number" name="rank" placeholder="Rank"></br>
+        <input type="submit" value="Add to playlist">
+    </form>
+    <!-- </div> -->
+</body>
+</html>

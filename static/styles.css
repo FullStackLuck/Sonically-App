@@ -1,0 +1,125 @@
+/* RENDERS ON ALL PAGES */
+
+/* BELONGS TO THE HOME PAGE */
+    /*Home Page  */
+
+body{
+    background-color: black;
+    background-image: url(https://cdn.wallpapersafari.com/4/63/N7k18V.jpg);
+    
+    background-position: inherit;
+
+}
+img{
+
+    position: absolute;
+
+    height: 160px;
+    width: 160px;
+    right: 100px;
+    bottom: 400px;
+    color: rgb(27, 231, 23);
+}
+.header{
+    background: -webkit-linear-gradient(#eee, rgb(7, 143, 202));
+  -webkit-text-fill-color: transparent;
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    background-color: rgb(16, 17, 17);
+    color: aliceblue;
+    
+}
+.song-container{
+    font-family:'Permanent Marker', cursive;
+    font-size: 60px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    bottom:  50%;
+    left:20%;
+    color: rgb(238, 243, 246);
+
+}
+
+
+/* Index Page */
+.list{
+    font-family:'Permanent Marker', cursive;
+    text-align: center;
+    table-layout: 20px;
+    text-shadow: 30%;
+    padding-top:100px;
+    padding: 50px;
+    margin: 0px;
+    color: rgb(23, 219, 5);
+    
+}
+
+.label{
+    text-align: center;
+    font-size: large;
+    padding-top: 25px;
+    font-family:'Permanent Marker', cursive;
+    color: rgb(53, 222, 10); 
+}
+h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(246, 255, 240);
+
+}
+.artist{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(47, 233, 10);
+}
+.card{
+    border-color: rgb(247, 245, 245);
+}
+.col{
+    color: rgb(87, 240, 15);
+}
+.form{
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    color: rgb(7, 214, 4);
+}
+.form-outline mb-4{
+    width: 90px;
+    color: rgb(72, 234, 18);
+}
+.table{
+    width: 100%;
+    color: rgb(25, 243, 25);
+}
+tr{
+    height: 10px;
+    color: rgb(66, 232, 16);
+}
+.options{
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    right: 100px;
+    color: rgb(151, 240, 17);
+}
+td{
+    color: rgb(66, 239, 35);
+    font-size: 18px;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+tbody{
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 20px;
+    
+    
+}

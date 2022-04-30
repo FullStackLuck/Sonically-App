@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("partials/head.ejs") %> 
+<body>
+    
+    <form action="/songs" method="POST">
+        <input type="text" name="artist"placeholder="Artist"></br>
+        <input type="text" name="title" placeholder="Song Title"></br>
+        <select type="text" name="genre" placeholder="Genre">
+            <option value="Rap">Rap</option>
+            <option value="Hip Hop">Hip Hop</option>
+            <option value="R&B">R&B</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+            <option value="Country">Country</option>
+            <option value="Reggae">Reggae</option>
+            <option value="World">World</option>
+            <option value="Electric">Electric</option>
+            <option value="Alternative">Alternative</option>
+            <option value="Metal">Metal</option>
+            <option value="Blues">Blues</option>
+            <option value="Soul">Soul</option>
+            </select>
+        </br>
+        <input type="number" name="rank" placeholder="Rank"></br>
+        <input type="submit" value="Update song"></form><br>
+        <button><a href="/songs">Back</a></button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head.ejs") %> 
+</head>
+<body>
+</body>
+</html>
+<div class="card" style="width: 15rem;">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjhIIbmPtlTXy-5v4oapA671K1QhH2YXb9w&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Title:<%=song.title%></h5>
+        <h5 class="card-title">Artist:<%=song.artist%></h5>
+        <h5 class="card-title">Genre:<%=song.genre%></h5>
+        <h5 class="card-title">Rating:<%=song.rank%></h5>
+        <p class="card-text"></p>
+        <a href="/songs" class="btn btn-primary">Return to playlist</a>
+    </div>
+  </div>
